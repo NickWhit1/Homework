@@ -1,21 +1,21 @@
 let pizzaToppings = ["pepperoni", " sausage", " bacon", " onions."];
 
 function greetCustomer() {
-    let greetCustomer = "Welcome to Deweys"
+    console.log("Welcome to Deweys, our toppings are");
     for (topping of pizzaToppings) {
-    console.log(`${greetCustomer}, our toppings are ${pizzaToppings} `)
+    console.log(`${topping}`)
     }
 };
 greetCustomer();
 
 function getPizzaOrder(size, crust, ...toppings) {
 
-console.log(`One large thin crust pizza with ${pizzaToppings} coming up!`);
+console.log(`One ${size} ${crust} pizza with ${toppings} coming up!`);
 return [size, crust, toppings];
 };
 
 
-function preparePizza([size, crust, toppings]) {
+function preparePizza([size, crust, ...toppings]) {
     let pizza = {
         size: size,
         crust: crust,
@@ -30,7 +30,7 @@ function servePizza(pizza) {
 
     return pizza;
 };
-servePizza(preparePizza(getPizzaOrder("large", "thin crust", "pepperoni", " sausage", " bacon", " onion")));
+servePizza(preparePizza(getPizzaOrder("large", "thin crust", "pepperoni", " sausage", " bacon", " onion", "olives", "anchovies", "Extra bacon")));
 
 
 
