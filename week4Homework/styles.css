@@ -1,0 +1,63 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(2, 2, 29);
+  max-width: fit-content;
+  border: 5px solid whitesmoke;
+  padding: 40px;
+  margin: 10px;
+
+
+}
+#nav-bar {
+  border: 5px solid whitesmoke;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  background-image: url("./images/Fall.jpg");
+
+}
+
+img {
+  border-radius: 250px;
+  display: block;
+  margin: auto;
+  width: 30%;
+  padding: 40px 0px;
+
+}
+h1, h2 {
+  text-align: center;
+  color: whitesmoke;
+  margin: 15px;
+  padding: 20px;
+ }
+
+.foot {
+  color: whitesmoke);
+  font-weight: 600;
+}
+
+ul {
+  color: whitesmoke;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+.courses {
+  color: whitesmoke);
+  font-size: x-large;
+}
+
+.sides {
+  padding-bottom: 5em;
+}
+
+div~h2 {
+  color: orange;
+}
+
+
+
+
