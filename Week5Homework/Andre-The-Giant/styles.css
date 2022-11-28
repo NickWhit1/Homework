@@ -1,0 +1,52 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#introPic {
+  float: left;
+}
+
+#bio {
+  float: right;
+}
+#bio > li {
+  padding: 2px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
+#achievements{
+  list-style: none;
+}
+
+#pro {
+  width: auto;
+}
+/* body > div {
+  background-color: red;
+} */
+@media (max-width: 360px) {
+
+}
