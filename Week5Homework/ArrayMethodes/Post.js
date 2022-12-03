@@ -605,16 +605,15 @@ const arr3 =
 //
 // create a list of user 5's posts
 
-const newArr = arr3.filter(function(arr3) {
-  return arr3.userId === 5;
+const newArr = arr3.filter(posts => posts["userId"] === 5 )
+  console.log(newArr);
 
-});
-console.log(newArr);
+
+
 
 // then, create a list of title and body pairs
-const newArr2 = arr3.map(function(arr3) {
-  return arr3.title, arr3.body;
-
-});
+const newArr2 = arr3.map(list => [list["title"], list["body"]])
 console.log(newArr2);
+
+
 

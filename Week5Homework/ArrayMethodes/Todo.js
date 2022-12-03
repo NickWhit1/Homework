@@ -1216,11 +1216,11 @@ const newArr2 = arr2.filter(function(arr2) {
 });
 console.log(newArr2);
 
-// then find the number of user 9's incomplete tasks
+// then find the number of user 9's incomplete tasks. May not need two &
 
 
 const newArr = arr2.filter(function(arr2) {
-  return arr2.completed === false & arr2.userId === 9 ;
+  return arr2.completed === false && arr2.userId === 9 ;  
 
 });
 console.log(newArr);
